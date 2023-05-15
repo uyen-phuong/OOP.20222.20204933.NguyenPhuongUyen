@@ -1,0 +1,7 @@
+Answers of lab03
+
+When I create a constructor method to build a DVD by title, it means that the constructor takes a String and assigns it into the title attribute of the new DVD. 
+
+Then I can't create another constructor method that also takes a String and assigns its into the category attribute of the new DVD.
+
+The compiler can't differentiate 2 String to determine which one is title, it only considers the data type (String). Therefore, we can't create 2 method taking a String as the only one parameter.
